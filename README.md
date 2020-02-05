@@ -10,10 +10,11 @@ Randomized solution to the 8 Queen problem!
 
 
 
-A purely randomized solution to the 8 Queen problem. It takes in a spectacular fashion only (0.2-0.8) S to get all 12 possible solutions 
+A purely randomized solution to the 8 Queen problem. It takes in a spectacular fashion only (0.18-0.8) S to get all 12 possible solutions 
 which is incredibly impressive!. On average it takes about 0.3S!!. There are no permutation algorithms. All solutions uses generated random values from 0 to 7.
+
 The main point of the solution is my noticed fact that Queens which represent binary numbers cannot repeat!. If we avoid repetitions the
 solution is way faster. My solution populates layout with binary digits from the array which represents binary Queen positions. The row 
 position represents the row and the Queen position represents the place of the Queen in that row !
 
-Though this solution proves that there is only 12 distinct solutions. IF we try to find 13 solutions the code will go into max exucution termination that is there is no 13th solution possible!.
+Though this solution proves that there are only 12 distinct solutions. IF we try to find 13 solutions the code will go into max execution termination that is there is no 13th solution possible!.
