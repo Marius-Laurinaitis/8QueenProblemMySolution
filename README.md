@@ -15,3 +15,5 @@ which is incredibly impressive!. On average it takes about 0.3S!!. There are no 
 The main point of the solution is my noticed fact that Queens which represent binary numbers cannot repeat!. If we avoid repetitions the
 solution is way faster. My solution populates layout with binary digits from the array which represents binary Queen positions. The row 
 position represents the row and the Queen position represents the place of the Queen in that row !
+
+Though this solution proves that there is only 12 distinct solutions. IF we try to find 13 solutions the code will go into max exucution termination that is there is no 13 solution possible!.
